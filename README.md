@@ -25,7 +25,7 @@ This project is a mobile app to control a robot arm using sliders for 4 motors. 
 
 **SQL Code**
 
-``
+```sql
 CREATE DATABASE robot_arm_db;
 
 USE robot_arm_db;
@@ -37,4 +37,5 @@ CREATE TABLE poses (
     motor3 INT NOT NULL,
     motor4 INT NOT NULL
 );
-``
+
+```
